@@ -1,10 +1,19 @@
+            body {
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_hF0SYT7NyekHcP8PPCtdqIe2K8rxYwfgeQ&usqp=CAU");
+            }
             h1 {
-              color: red;  
+                color: red;
+                display: flex;
+                justify-content: center;  
+            }
+            div{
+                text-align: center;
             }
             img {
                 width: 400px;
             }
             #thirdDiv{
+                margin: auto;
                 width: 500px;
                 height: 600px;
                 background-color: greenyellow;
@@ -12,6 +21,7 @@
                 border-width:20px;
                 border-style: dashed;
                 border-color: green;
+                
             }
             #spanId{
                 font-size: 18px;
